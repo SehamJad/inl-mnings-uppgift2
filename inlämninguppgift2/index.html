@@ -1,19 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>uppgift2</title>
+    <link rel="stylesheet" href="style.css">
+    <title>current weather</title>
+
 </head>
-<body>
+
+<body background="mybkkk.png">
+
+    <div id="description">
+
+      <div>
+    <h1 id="temp"> The local weather in<span id="town"></span> <span id="count"></span>
+    </h1>
+  </div>
+  <div>
     <div id="info">
-        <h1>Väder</h1>
-        <p>Weather Temp</p>
+      <div>
+        <div class="cnd"><span id="cond"></span> <span id="icn"></span></div>
+      <div>
+      <h2 id="tempr"> 
+      </h2>
     </div>
-   
 
+    <div class="tme"> <span id="time"></span></div>
+  </div>
+</div>
+  <script  src="./script.js"></script>
 
-    <script src="script.js"></script>
 </body>
 </html>
